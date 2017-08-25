@@ -42,7 +42,7 @@ function arr(n) {
   for (let i = 2; i < n; i++) {
     fib3[i] = fib3[i - 1] + fib3[i - 2];
   }
-  // return fib3[n];
+  // return fib3;
   return fib3[fib3.length - 1];
 }
 
